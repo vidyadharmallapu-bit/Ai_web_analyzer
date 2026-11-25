@@ -1,37 +1,66 @@
-# Environment & Secret Files
+# Secrets & Credentials
 .env
-.env.local
-.env.*.local
-*.pem
+*.env
+!.env.example
 *.key
-*.p12
+*.pem
+*.crt
 
-# Python Virtual Environments & Cache
-venv/
-.venv/
-env/
-ENV/
+# Python
 __pycache__/
 *.py[cod]
-
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Build & Distribution Folders
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
 dist/
 build/
-*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+a/
+folder/
+makes/
 
-# Logs & Database
-*.log
+# Database
+*.db
 *.sqlite
 *.sqlite3
 
-# IDEs & System Files
-.vscode/
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.cache/
+frontend/node_modules/
+package-lock.json
+
+# Docker
+docker-compose.override.yml
+
+# IDEs & OS
 .idea/
-.DS_Store
+.vscode/
+*.DS_Store
 Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Coverage
+.coverage
+htmlcov/
+coverage/
+
+# Build artifacts
+*.pyc
+*.tgz
+*.tar.gz

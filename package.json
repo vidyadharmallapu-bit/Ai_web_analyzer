@@ -1,0 +1,7 @@
+{
+  "name": "web_analyzer_root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ./frontend run dev"
+  }
+}
