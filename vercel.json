@@ -4,15 +4,7 @@
     "backend": {
       "root": "backend",
       "runtime": "python",
-      "framework": "fastapi",
-      "bindings": [
-        {
-          "type": "service",
-          "service": "frontend",
-          "format": "url",
-          "env": "FRONTEND_URL"
-        }
-      ]
+      "framework": "fastapi"
     },
     "frontend": {
       "root": "frontend",
