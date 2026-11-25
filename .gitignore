@@ -64,3 +64,5 @@ coverage/
 *.pyc
 *.tgz
 *.tar.gz
+.vercel
+.env*
