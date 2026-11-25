@@ -3,7 +3,9 @@
   "services": {
     "backend": {
       "root": "backend",
+      "runtime": "python",
       "framework": "fastapi",
+      "installCommand": "uv pip install -r requirements.txt",
       "bindings": [
         {
           "type": "service",
